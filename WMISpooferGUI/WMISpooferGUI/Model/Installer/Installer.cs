@@ -17,7 +17,7 @@ namespace WMISpooferGUI.Model
         private static string installationFilePath = Path.Combine(localAppDataPath, "WMIS");
         private static string installationFileName32 = Path.Combine(installationFilePath, "WMIS32.dll");
         private static string installationFileName64 = Path.Combine(installationFilePath, "WMIS64.dll");
-        private static string installationIniFileName = Path.Combine(installationFilePath, "WMISpoofer.ini");
+        private static string installationIniFileName = Path.Combine(installationFilePath, "WMIS.ini");
 
         private static string getShortPath(string path)
         {
